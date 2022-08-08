@@ -21,40 +21,10 @@
           data-bs-target="#Header_menu_content" aria-controls="Header_menu_content">
           <img src="assets/images/burger.svg" class="burger_icon" alt="">
         </button>
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="Header_menu_content"
-          aria-labelledby="Header_menu_contentLabel">
-          <div class="offcanvas-header">
-            <h5 class="offcanvas-title" id="Header_menu_contentLabel"></h5>
-            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-          </div>
-          <div class="offcanvas-body">
-            <div class="d-flex align-items-center justify-content-between">
-              <div class="social d-flex align-items-center">
-                <a class="social_link me-1" href="#">
-                  <img src="assets/images/viber.svg" class="social_top-img" alt="">
-                </a>
-                <a class="social_link" href="#">
-                  <img src="assets/images/telegram.svg" class="social_top-img" alt="">
-                </a>
-              </div>
-              <div class="phone_block flex-wrap align-items-center me-0 me-sm-2 me-md-3 md-lg-4 me-xl-5">
-                <a href="tel:+380986774887">+3 (098) 677 48 87</a>
-              </div>
-            </div>
-            <div class="navigator my-4 d-flex flex-column">
-              <a href="#" class="header_menu_items mt-4">Про нас</a>
-              <a href="#" class="header_menu_items mt-4">Послуги</a>
-              <a href="#" class="header_menu_items mt-4">Спеціалісти</a>
-              <a href="#" class="header_menu_items mt-4">Check-Up</a>
-              <a href="#" class="header_menu_items mt-4">Контакти</a>
-            </div>
-            <div class="offcanvas_button d-flex text-center mt-4 w-100">
-              <buton class="w-100 primary_button text-center text-decoration-none" >Онлайн-запис</button>
-            </div>
-          </div>
-        </div>
+
         <div class="hidden_button_header">
-          <a href="#" class="primary_button text-decoration-none">Онлайн-запис</a>
+          <button class="primary_button text-decoration-none border-0 outline-0" data-bs-toggle="modal"
+            data-bs-target="#Consult_form_modal">Онлайн-запис</button>
         </div>
         <div id="right-header-content"
           class="header_right_block d-flex justify-content-between flex-wrap align-items-center">
@@ -71,7 +41,8 @@
             <a href="tel:+380986774887">+3 (098) 677 48 87</a>
           </div>
           <div class="button_right_block">
-            <a href="#" class="primary_button text-decoration-none">Онлайн-запис</a>
+            <button class="primary_button text-decoration-none border-0 outline-0" data-bs-toggle="modal"
+            data-bs-target="#Consult_form_modal">Онлайн-запис</button>
           </div>
         </div>
       </div>
@@ -95,7 +66,8 @@
             </h3>
           </div>
           <div class="button_bottom_block d-flex justify-content-between flex-wrap align-items-center mt-3">
-            <a href="#" class="primary_button text-decoration-none">Онлайн-запис</a>
+            <button class="primary_button text-decoration-none border-0 outline-0" data-bs-toggle="modal"
+            data-bs-target="#Consult_form_modal">Онлайн-запис</button>
           </div>
         </div>
       </div>
@@ -139,9 +111,68 @@
             </p>
           </div>
         </div>
-        <h1 class="section_call_to_action_text text-center mt-4">Заключити декларацію з сімейним лікарем</h1>
+        <h1 class="section_call_to_action_text text-center mt-3">Заключити декларацію з сімейним лікарем</h1>
+        <div class="d-flex justify-content-center mt-3"><button class="primary_button text-decoration-none border-0 outline-0" data-bs-toggle="modal"
+          data-bs-target="#Consult_form_modal">Онлайн-запис</button></div>
       </div>
     </section>
+
+
+
+    <!-- modals -->
+    <div class="modal fade" id="Consult_form_modal" tabindex="-1" aria-labelledby="Consult_form_modalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="Consult_form_modalLabel">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- offcanvas -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="Header_menu_content"
+      aria-labelledby="Header_menu_contentLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="Header_menu_contentLabel"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="d-flex align-items-center justify-content-between">
+          <div class="social d-flex align-items-center">
+            <a class="social_link me-1" href="#">
+              <img src="assets/images/viber.svg" class="social_top-img" alt="">
+            </a>
+            <a class="social_link" href="#">
+              <img src="assets/images/telegram.svg" class="social_top-img" alt="">
+            </a>
+          </div>
+          <div class="phone_block flex-wrap align-items-center me-0 me-sm-2 me-md-3 md-lg-4 me-xl-5">
+            <a href="tel:+380986774887">+3 (098) 677 48 87</a>
+          </div>
+        </div>
+        <div class="navigator my-4 d-flex flex-column">
+          <a href="#" class="header_menu_items mt-4">Про нас</a>
+          <a href="#" class="header_menu_items mt-4">Послуги</a>
+          <a href="#" class="header_menu_items mt-4">Спеціалісти</a>
+          <a href="#" class="header_menu_items mt-4">Check-Up</a>
+          <a href="#" class="header_menu_items mt-4">Контакти</a>
+        </div>
+        <div class="offcanvas_button d-flex text-center mt-4 w-100">
+          <button class="primary_button w-100 text-decoration-none border-0 outline-0" data-bs-toggle="modal"
+          data-bs-target="#Consult_form_modal">Онлайн-запис</button>
+        </div>
+      </div>
+    </div>
   </main>
 </body>
 <script src="assets/bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
