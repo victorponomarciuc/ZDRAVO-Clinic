@@ -1,0 +1,106 @@
+@font-face {
+    font-family: 'Matroska';
+    src: URL('../fonts/Matroska-RppG6.ttf') format('truetype');
+  }
+
+@font-face {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Geometria'), url('https://fonts.cdnfonts.com/s/14868/Geometria.woff') format('woff');
+}
+@font-face {
+    font-family: 'Geometria';
+    font-style: italic;
+    font-weight: 400;
+    src: local('Geometria'), url('https://fonts.cdnfonts.com/s/14868/Geometria-Italic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Geometria'), url('https://fonts.cdnfonts.com/s/14868/Geometria-Thin.woff') format('woff');
+}
+@font-face {
+    font-family: 'Geometria';
+    font-style: italic;
+    font-weight: 100;
+    src: local('Geometria'), url('https://fonts.cdnfonts.com/s/14868/Geometria-ThinItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 200;
+    src: local('Geometria'), url('https://fonts.cdnfonts.com/s/14868/Geometria-ExtraLight.woff') format('woff');
+}
+@font-face {
+    font-family: 'Geometria';
+    font-style: italic;
+    font-weight: 200;
+    src: local('Geometria'), url('https://fonts.cdnfonts.com/s/14868/Geometria-ExtraLightItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Geometria'), url('https://fonts.cdnfonts.com/s/14868/Geometria-Light.woff') format('woff');
+}
+@font-face {
+    font-family: 'Geometria';
+    font-style: italic;
+    font-weight: 300;
+    src: local('Geometria'), url('https://fonts.cdnfonts.com/s/14868/Geometria-LightItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Geometria'), url('https://fonts.cdnfonts.com/s/14868/Geometria-Medium.woff') format('woff');
+}
+@font-face {
+    font-family: 'Geometria';
+    font-style: italic;
+    font-weight: 500;
+    src: local('Geometria'), url('https://fonts.cdnfonts.com/s/14868/Geometria-MediumItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Geometria'), url('https://fonts.cdnfonts.com/s/14868/Geometria-Bold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Geometria';
+    font-style: italic;
+    font-weight: 700;
+    src: local('Geometria'), url('https://fonts.cdnfonts.com/s/14868/Geometria-BoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 800;
+    src: local('Geometria'), url('https://fonts.cdnfonts.com/s/14868/Geometria-ExtraBold.woff') format('woff');
+}
+@font-face {
+    font-family: 'Geometria';
+    font-style: italic;
+    font-weight: 800;
+    src: local('Geometria'), url('https://fonts.cdnfonts.com/s/14868/Geometria-ExtraBoldItalic.woff') format('woff');
+}
+@font-face {
+    font-family: 'Geometria';
+    font-style: normal;
+    font-weight: 900;
+    src: local('Geometria'), url('https://fonts.cdnfonts.com/s/14868/Geometria-Heavy.woff') format('woff');
+}
+@font-face {
+    font-family: 'Geometria';
+    font-style: italic;
+    font-weight: 900;
+    src: local('Geometria'), url('https://fonts.cdnfonts.com/s/14868/Geometria-HeavyItalic.woff') format('woff');
+}
+
+
+
+  $primary_color: #b8da46;
+  $secondary_color: #023540;

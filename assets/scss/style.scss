@@ -1,0 +1,134 @@
+@import "media_query";
+@import "variable_and_imports";
+body {
+  font-family: "Geometria"!important;
+  padding: 0 5%;
+}
+.limited_width {
+  max-width: 1400px;
+  margin: auto;
+}
+header {
+  margin-top: 1.5rem;
+}
+.logo {
+  max-width: 250px;
+}
+.phone_block {
+  a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: $secondary_color;
+    text-decoration: none;
+  }
+}
+.primary_button {
+  background: $primary_color;
+  border-radius: 10px;
+  padding: 10px 33px 12px;
+  color: $secondary_color;
+  transition: 0.5s;
+
+  font-style: normal;
+  font-weight: 600;
+}
+.primary_button:hover {
+  background: $secondary_color;
+  color: $primary_color;
+  transition: 0.5s;
+}
+.header_top_content {
+  border-bottom: 1px solid $primary_color;
+  padding-bottom: 0.75rem;
+}
+
+.header_menu_items {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 20px;
+  color: $secondary_color;
+  margin-right: 1.5rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.header_menu_items:hover {
+  transition: 0.3s;
+  color: $primary_color;
+}
+.social_link {
+  background: $primary_color;
+  border-radius: 10px;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+}
+.social_top-img {
+  width: 26px;
+}
+.social_link:hover {
+  background: $secondary_color;
+  transition: 0.4s;
+}
+.content_title {
+  color: $primary_color;
+}
+.title_line .second_title {
+  color: $secondary_color;
+}
+.header_content {
+  background-image: url("../images/header_content_img.png");
+  background-size: contain;
+  background-position: center right;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.header_content_overlay {
+  padding: 100px 0;
+}
+.line {
+  height: 1px;
+  background: $primary_color;
+}
+.line-small {
+  width: 75px;
+}
+.line-large {
+  width: 100%;
+}
+.text-green {
+  color: $primary_color;
+}
+.section_title {
+  span:last-child {
+    white-space: nowrap;
+  }
+}
+h1.content_title,
+h2.second_title {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 60px;
+}
+h3.three_title,
+.section_title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+.bold_title {
+  font-weight: 500;
+}
+.hidden_button_header, .hamburger_menu_button{
+  display: none;
+}
+.burger_icon{
+  width: 45px;
+}
