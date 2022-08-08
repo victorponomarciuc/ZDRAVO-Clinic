@@ -211,6 +211,14 @@ h3.three_title,
   color: #023540;
 }
 
+.logo_section {
+  max-width: 90%;
+}
+
+.gray_section {
+  background: #e3e3e3;
+}
+
 @media (min-width: 570px) and (max-width: 768px) {
   .button_right_block {
     display: none !important;
