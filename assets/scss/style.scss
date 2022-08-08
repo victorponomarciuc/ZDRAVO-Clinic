@@ -1,7 +1,7 @@
 @import "media_query";
 @import "variable_and_imports";
 body {
-  font-family: "Geometria"!important;
+  font-family: "Geometria" !important;
   padding: 0 5%;
 }
 .limited_width {
@@ -126,9 +126,31 @@ h3.three_title,
 .bold_title {
   font-weight: 500;
 }
-.hidden_button_header, .hamburger_menu_button{
+.hidden_button_header,
+.hamburger_menu_button {
   display: none;
 }
-.burger_icon{
+.burger_icon {
   width: 45px;
+}
+.icons-size {
+  width: 175px;
+}
+.section_items_title {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+}
+.section_items_description {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: $secondary_color;
+}
+.section_call_to_action_text {
+  color: $secondary_color;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
 }

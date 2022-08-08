@@ -2,102 +2,6 @@
   font-family: "Matroska";
   src: URL("../fonts/Matroska-RppG6.ttf") format("truetype");
 }
-@font-face {
-  font-family: "Geometria";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Geometria"), url("https://fonts.cdnfonts.com/s/14868/Geometria.woff") format("woff");
-}
-@font-face {
-  font-family: "Geometria";
-  font-style: italic;
-  font-weight: 400;
-  src: local("Geometria"), url("https://fonts.cdnfonts.com/s/14868/Geometria-Italic.woff") format("woff");
-}
-@font-face {
-  font-family: "Geometria";
-  font-style: normal;
-  font-weight: 100;
-  src: local("Geometria"), url("https://fonts.cdnfonts.com/s/14868/Geometria-Thin.woff") format("woff");
-}
-@font-face {
-  font-family: "Geometria";
-  font-style: italic;
-  font-weight: 100;
-  src: local("Geometria"), url("https://fonts.cdnfonts.com/s/14868/Geometria-ThinItalic.woff") format("woff");
-}
-@font-face {
-  font-family: "Geometria";
-  font-style: normal;
-  font-weight: 200;
-  src: local("Geometria"), url("https://fonts.cdnfonts.com/s/14868/Geometria-ExtraLight.woff") format("woff");
-}
-@font-face {
-  font-family: "Geometria";
-  font-style: italic;
-  font-weight: 200;
-  src: local("Geometria"), url("https://fonts.cdnfonts.com/s/14868/Geometria-ExtraLightItalic.woff") format("woff");
-}
-@font-face {
-  font-family: "Geometria";
-  font-style: normal;
-  font-weight: 300;
-  src: local("Geometria"), url("https://fonts.cdnfonts.com/s/14868/Geometria-Light.woff") format("woff");
-}
-@font-face {
-  font-family: "Geometria";
-  font-style: italic;
-  font-weight: 300;
-  src: local("Geometria"), url("https://fonts.cdnfonts.com/s/14868/Geometria-LightItalic.woff") format("woff");
-}
-@font-face {
-  font-family: "Geometria";
-  font-style: normal;
-  font-weight: 500;
-  src: local("Geometria"), url("https://fonts.cdnfonts.com/s/14868/Geometria-Medium.woff") format("woff");
-}
-@font-face {
-  font-family: "Geometria";
-  font-style: italic;
-  font-weight: 500;
-  src: local("Geometria"), url("https://fonts.cdnfonts.com/s/14868/Geometria-MediumItalic.woff") format("woff");
-}
-@font-face {
-  font-family: "Geometria";
-  font-style: normal;
-  font-weight: 700;
-  src: local("Geometria"), url("https://fonts.cdnfonts.com/s/14868/Geometria-Bold.woff") format("woff");
-}
-@font-face {
-  font-family: "Geometria";
-  font-style: italic;
-  font-weight: 700;
-  src: local("Geometria"), url("https://fonts.cdnfonts.com/s/14868/Geometria-BoldItalic.woff") format("woff");
-}
-@font-face {
-  font-family: "Geometria";
-  font-style: normal;
-  font-weight: 800;
-  src: local("Geometria"), url("https://fonts.cdnfonts.com/s/14868/Geometria-ExtraBold.woff") format("woff");
-}
-@font-face {
-  font-family: "Geometria";
-  font-style: italic;
-  font-weight: 800;
-  src: local("Geometria"), url("https://fonts.cdnfonts.com/s/14868/Geometria-ExtraBoldItalic.woff") format("woff");
-}
-@font-face {
-  font-family: "Geometria";
-  font-style: normal;
-  font-weight: 900;
-  src: local("Geometria"), url("https://fonts.cdnfonts.com/s/14868/Geometria-Heavy.woff") format("woff");
-}
-@font-face {
-  font-family: "Geometria";
-  font-style: italic;
-  font-weight: 900;
-  src: local("Geometria"), url("https://fonts.cdnfonts.com/s/14868/Geometria-HeavyItalic.woff") format("woff");
-}
 body {
   font-family: "Geometria" !important;
   padding: 0 5%;
@@ -261,12 +165,38 @@ h3.three_title,
   font-weight: 500;
 }
 
-.hidden_button_header, .hamburger_menu_button {
+.hidden_button_header,
+.hamburger_menu_button {
   display: none;
 }
 
 .burger_icon {
   width: 45px;
+}
+
+.icons-size {
+  width: 175px;
+}
+
+.section_items_title {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.section_items_description {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #023540;
+}
+
+.section_call_to_action_text {
+  color: #023540;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
 }
 
 @media (min-width: 570px) and (max-width: 768px) {
@@ -310,5 +240,10 @@ h2.second_title {
   }
   .hamburger_menu_button {
     display: block;
+  }
+  .section_items_title, .section_call_to_action_text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 23px;
   }
 }
