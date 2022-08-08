@@ -175,7 +175,7 @@ h3.three_title,
 }
 
 .icons-size {
-  width: 175px;
+  width: 150px;
 }
 
 .section_items_title {
@@ -200,6 +200,14 @@ h3.three_title,
 }
 
 .text-secondary-color {
+  color: #023540;
+}
+
+.description_about {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: right;
   color: #023540;
 }
 

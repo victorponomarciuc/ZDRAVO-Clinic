@@ -134,7 +134,7 @@ h3.three_title,
   width: 45px;
 }
 .icons-size {
-  width: 175px;
+  width: 150px;
 }
 .section_items_title {
   font-weight: 800;
@@ -154,6 +154,13 @@ h3.three_title,
   font-size: 20px;
   line-height: 25px;
 }
-.text-secondary-color{
+.text-secondary-color {
+  color: $secondary_color;
+}
+.description_about {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  text-align: right;
   color: $secondary_color;
 }
