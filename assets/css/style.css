@@ -199,6 +199,10 @@ h3.three_title,
   line-height: 25px;
 }
 
+.text-secondary-color {
+  color: #023540;
+}
+
 @media (min-width: 570px) and (max-width: 768px) {
   .button_right_block {
     display: none !important;
