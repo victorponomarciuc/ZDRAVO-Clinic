@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Matroska';
-    src: URL('../fonts/Matroska-RppG6.ttf') format('truetype');
-  }
+  font-family: "Matroska";
+  src: URL("../fonts/Matroska-RppG6.ttf") format("truetype");
+}
+@import url("http://fonts.cdnfonts.com/css/geometria");
 
-
-  $primary_color: #b8da46;
-  $secondary_color: #023540;
+$primary_color: #b8da46;
+$secondary_color: #023540;
