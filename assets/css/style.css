@@ -219,6 +219,46 @@ h3.three_title,
   background: #e3e3e3;
 }
 
+.about_section_title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: #023540;
+}
+
+.contact-footer {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 30px;
+  color: #023540;
+}
+
+.footer_phone {
+  font-size: 20px !important;
+}
+
+.contact-footer:hover {
+  color: #b8da46;
+}
+
+.about_section_content {
+  color: #023540;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.input_custom {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #b8da46;
+  outline: transparent;
+}
+
+.input_custom:focus {
+  border-bottom: 1px solid #023540;
+}
+
 @media (min-width: 570px) and (max-width: 768px) {
   .button_right_block {
     display: none !important;

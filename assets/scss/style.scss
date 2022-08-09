@@ -170,3 +170,37 @@ h3.three_title,
 .gray_section {
   background: #e3e3e3;
 }
+.about_section_title {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 30px;
+  color: $secondary_color;
+}
+.contact-footer {
+  font-weight: 300;
+  font-size: 22px;
+  line-height: 30px;
+  color: $secondary_color;
+}
+.footer_phone{
+  font-size: 20px!important;
+}
+.contact-footer:hover {
+  color: $primary_color;
+}
+.about_section_content{
+color: $secondary_color;
+font-weight: 300;
+font-size: 16px;
+line-height: 20px;
+}
+.input_custom{
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid $primary_color;
+  outline: transparent;
+  
+}
+.input_custom:focus{
+  border-bottom: 1px solid $secondary_color;
+}
